@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD013BE524B0AAA9004EB3D5 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD013BE424B0AAA9004EB3D5 /* ScheduleData.swift */; };
+		CD013BE724B0D2CC004EB3D5 /* ScheduleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD013BE624B0D2CC004EB3D5 /* ScheduleDetailViewController.swift */; };
+		CD013BEA24B11CF2004EB3D5 /* buttonYellow-8.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BE824B11CF2004EB3D5 /* buttonYellow-8.png */; };
+		CD013BEB24B11CF2004EB3D5 /* selectSchool.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BE924B11CF2004EB3D5 /* selectSchool.png */; };
+		CD013BFA24B1266E004EB3D5 /* loginPage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BEC24B1266C004EB3D5 /* loginPage.png */; };
+		CD013BFB24B1266E004EB3D5 /* Calendarbutton-8.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BED24B1266C004EB3D5 /* Calendarbutton-8.png */; };
+		CD013BFC24B1266E004EB3D5 /* selectSchool 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BEE24B1266C004EB3D5 /* selectSchool 2.png */; };
+		CD013BFD24B1266E004EB3D5 /* appiconn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BEF24B1266C004EB3D5 /* appiconn.png */; };
+		CD013BFE24B1266E004EB3D5 /* calendarPage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF024B1266D004EB3D5 /* calendarPage.png */; };
+		CD013BFF24B1266E004EB3D5 /* scheduleCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF124B1266D004EB3D5 /* scheduleCheck.png */; };
+		CD013C0024B1266E004EB3D5 /* memoPage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF224B1266D004EB3D5 /* memoPage.png */; };
+		CD013C0124B1266E004EB3D5 /* homePage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF324B1266D004EB3D5 /* homePage.png */; };
+		CD013C0224B1266E004EB3D5 /* smallButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF424B1266D004EB3D5 /* smallButton1.png */; };
+		CD013C0324B1266E004EB3D5 /* smallButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF524B1266D004EB3D5 /* smallButton2.png */; };
+		CD013C0424B1266E004EB3D5 /* accountPage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF624B1266E004EB3D5 /* accountPage.png */; };
+		CD013C0524B1266E004EB3D5 /* colorPage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD013BF724B1266E004EB3D5 /* colorPage.png */; };
+		CD013C0624B1266E004EB3D5 /* MySchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD013BF824B1266E004EB3D5 /* MySchool.xcdatamodeld */; };
+		CDC0451424AE4A30007AA41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0451324AE4A30007AA41D /* AppDelegate.swift */; };
+		CDC0451624AE4A30007AA41D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0451524AE4A30007AA41D /* SceneDelegate.swift */; };
+		CDC0451824AE4A30007AA41D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0451724AE4A30007AA41D /* ViewController.swift */; };
+		CDC0451B24AE4A30007AA41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0451924AE4A30007AA41D /* Main.storyboard */; };
+		CDC0451E24AE4A30007AA41D /* MySchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDC0451C24AE4A30007AA41D /* MySchool.xcdatamodeld */; };
+		CDC0452024AE4A34007AA41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC0451F24AE4A34007AA41D /* Assets.xcassets */; };
+		CDC0452324AE4A34007AA41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0452124AE4A34007AA41D /* LaunchScreen.storyboard */; };
+		CDC0452B24AE5DDA007AA41D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0452A24AE5DDA007AA41D /* CreateAccountViewController.swift */; };
+		CDC0453324AF0279007AA41D /* MySchool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDC0452C24AF0279007AA41D /* MySchool.xcdatamodeld */; };
+		CDC0453424AF0279007AA41D /* memo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0452E24AF0279007AA41D /* memo.png */; };
+		CDC0453524AF0279007AA41D /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0452F24AF0279007AA41D /* list.png */; };
+		CDC0453624AF0279007AA41D /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0453024AF0279007AA41D /* calendar.png */; };
+		CDC0453724AF0279007AA41D /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0453124AF0279007AA41D /* color.png */; };
+		CDC0453824AF0279007AA41D /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0453224AF0279007AA41D /* logout.png */; };
+		CDC0453F24AF052E007AA41D /* sample-335-magic-wand.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0453D24AF052D007AA41D /* sample-335-magic-wand.png */; };
+		CDC0454224AF0676007AA41D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0454024AF0676007AA41D /* home.png */; };
+		CDC0454524AF06CF007AA41D /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0454424AF06CE007AA41D /* note.png */; };
+		CDC0454B24AF3E83007AA41D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0454A24AF3E83007AA41D /* HomeViewController.swift */; };
+		CDC0454F24AF93DA007AA41D /* MemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0454E24AF93DA007AA41D /* MemoTableViewController.swift */; };
+		CDC0455124AF93F6007AA41D /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0455024AF93F6007AA41D /* AddMemoViewController.swift */; };
+		CDC0455324AFA9D1007AA41D /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0455224AFA9D1007AA41D /* MemoDetailViewController.swift */; };
+		CDC0455724AFBD43007AA41D /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0455624AFBD43007AA41D /* ColorViewController.swift */; };
+		CDC0456124AFC878007AA41D /* ecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455824AFC878007AA41D /* ecolor.png */; };
+		CDC0456224AFC878007AA41D /* dcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455924AFC878007AA41D /* dcolor.png */; };
+		CDC0456324AFC878007AA41D /* icolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455A24AFC878007AA41D /* icolor.png */; };
+		CDC0456424AFC878007AA41D /* acolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455B24AFC878007AA41D /* acolor.png */; };
+		CDC0456524AFC878007AA41D /* gcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455C24AFC878007AA41D /* gcolor.png */; };
+		CDC0456624AFC878007AA41D /* hcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455D24AFC878007AA41D /* hcolor.png */; };
+		CDC0456724AFC878007AA41D /* bcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455E24AFC878007AA41D /* bcolor.png */; };
+		CDC0456824AFC878007AA41D /* fcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0455F24AFC878007AA41D /* fcolor.png */; };
+		CDC0456924AFC878007AA41D /* ccolor.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC0456024AFC878007AA41D /* ccolor.png */; };
+		CDC0456B24AFCE1C007AA41D /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0456A24AFCE1C007AA41D /* ScheduleTableViewController.swift */; };
+		CDC0456D24AFCE35007AA41D /* AddSceduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0456C24AFCE35007AA41D /* AddSceduleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD013BE424B0AAA9004EB3D5 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		CD013BE624B0D2CC004EB3D5 /* ScheduleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailViewController.swift; sourceTree = "<group>"; };
+		CD013BE824B11CF2004EB3D5 /* buttonYellow-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonYellow-8.png"; sourceTree = "<group>"; };
+		CD013BE924B11CF2004EB3D5 /* selectSchool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectSchool.png; sourceTree = "<group>"; };
+		CD013BEC24B1266C004EB3D5 /* loginPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginPage.png; sourceTree = "<group>"; };
+		CD013BED24B1266C004EB3D5 /* Calendarbutton-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendarbutton-8.png"; sourceTree = "<group>"; };
+		CD013BEE24B1266C004EB3D5 /* selectSchool 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectSchool 2.png"; sourceTree = "<group>"; };
+		CD013BEF24B1266C004EB3D5 /* appiconn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appiconn.png; sourceTree = "<group>"; };
+		CD013BF024B1266D004EB3D5 /* calendarPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarPage.png; sourceTree = "<group>"; };
+		CD013BF124B1266D004EB3D5 /* scheduleCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleCheck.png; sourceTree = "<group>"; };
+		CD013BF224B1266D004EB3D5 /* memoPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memoPage.png; sourceTree = "<group>"; };
+		CD013BF324B1266D004EB3D5 /* homePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePage.png; sourceTree = "<group>"; };
+		CD013BF424B1266D004EB3D5 /* smallButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallButton1.png; sourceTree = "<group>"; };
+		CD013BF524B1266D004EB3D5 /* smallButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallButton2.png; sourceTree = "<group>"; };
+		CD013BF624B1266E004EB3D5 /* accountPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountPage.png; sourceTree = "<group>"; };
+		CD013BF724B1266E004EB3D5 /* colorPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPage.png; sourceTree = "<group>"; };
+		CD013BF924B1266E004EB3D5 /* MySchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySchool.xcdatamodel; sourceTree = "<group>"; };
+		CDC0451024AE4A30007AA41D /* MySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC0451324AE4A30007AA41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC0451524AE4A30007AA41D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDC0451724AE4A30007AA41D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC0451A24AE4A30007AA41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC0451D24AE4A30007AA41D /* MySchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySchool.xcdatamodel; sourceTree = "<group>"; };
+		CDC0451F24AE4A34007AA41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC0452224AE4A34007AA41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC0452424AE4A34007AA41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC0452A24AE5DDA007AA41D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		CDC0452D24AF0279007AA41D /* MySchool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySchool.xcdatamodel; sourceTree = "<group>"; };
+		CDC0452E24AF0279007AA41D /* memo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memo.png; sourceTree = "<group>"; };
+		CDC0452F24AF0279007AA41D /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		CDC0453024AF0279007AA41D /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		CDC0453124AF0279007AA41D /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		CDC0453224AF0279007AA41D /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		CDC0453D24AF052D007AA41D /* sample-335-magic-wand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-335-magic-wand.png"; sourceTree = "<group>"; };
+		CDC0454024AF0676007AA41D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		CDC0454424AF06CE007AA41D /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		CDC0454A24AF3E83007AA41D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDC0454E24AF93DA007AA41D /* MemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewController.swift; sourceTree = "<group>"; };
+		CDC0455024AF93F6007AA41D /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		CDC0455224AFA9D1007AA41D /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		CDC0455624AFBD43007AA41D /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		CDC0455824AFC878007AA41D /* ecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecolor.png; sourceTree = "<group>"; };
+		CDC0455924AFC878007AA41D /* dcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dcolor.png; sourceTree = "<group>"; };
+		CDC0455A24AFC878007AA41D /* icolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icolor.png; sourceTree = "<group>"; };
+		CDC0455B24AFC878007AA41D /* acolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acolor.png; sourceTree = "<group>"; };
+		CDC0455C24AFC878007AA41D /* gcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcolor.png; sourceTree = "<group>"; };
+		CDC0455D24AFC878007AA41D /* hcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hcolor.png; sourceTree = "<group>"; };
+		CDC0455E24AFC878007AA41D /* bcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcolor.png; sourceTree = "<group>"; };
+		CDC0455F24AFC878007AA41D /* fcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fcolor.png; sourceTree = "<group>"; };
+		CDC0456024AFC878007AA41D /* ccolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccolor.png; sourceTree = "<group>"; };
+		CDC0456A24AFCE1C007AA41D /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		CDC0456C24AFCE35007AA41D /* AddSceduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSceduleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC0450D24AE4A30007AA41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD013C0924B126AC004EB3D5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CD013BEF24B1266C004EB3D5 /* appiconn.png */,
+				CD013BED24B1266C004EB3D5 /* Calendarbutton-8.png */,
+				CD013BF024B1266D004EB3D5 /* calendarPage.png */,
+				CD013BF724B1266E004EB3D5 /* colorPage.png */,
+				CD013BF324B1266D004EB3D5 /* homePage.png */,
+				CD013BEC24B1266C004EB3D5 /* loginPage.png */,
+				CD013BF224B1266D004EB3D5 /* memoPage.png */,
+				CD013BF124B1266D004EB3D5 /* scheduleCheck.png */,
+				CD013BEE24B1266C004EB3D5 /* selectSchool 2.png */,
+				CD013BF424B1266D004EB3D5 /* smallButton1.png */,
+				CD013BF524B1266D004EB3D5 /* smallButton2.png */,
+				CD013BE824B11CF2004EB3D5 /* buttonYellow-8.png */,
+				CD013BE924B11CF2004EB3D5 /* selectSchool.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		CDC0450724AE4A30007AA41D = {
+			isa = PBXGroup;
+			children = (
+				CDC0453924AF0291007AA41D /* icon */,
+				CDC0452C24AF0279007AA41D /* MySchool.xcdatamodeld */,
+				CDC0451224AE4A30007AA41D /* MySchool */,
+				CDC0451124AE4A30007AA41D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC0451124AE4A30007AA41D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0451024AE4A30007AA41D /* MySchool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC0451224AE4A30007AA41D /* MySchool */ = {
+			isa = PBXGroup;
+			children = (
+				CD013BF624B1266E004EB3D5 /* accountPage.png */,
+				CD013C0924B126AC004EB3D5 /* source */,
+				CD013BF824B1266E004EB3D5 /* MySchool.xcdatamodeld */,
+				CDC0451924AE4A30007AA41D /* Main.storyboard */,
+				CDC0455624AFBD43007AA41D /* ColorViewController.swift */,
+				CDC0455024AF93F6007AA41D /* AddMemoViewController.swift */,
+				CDC0451724AE4A30007AA41D /* ViewController.swift */,
+				CDC0451324AE4A30007AA41D /* AppDelegate.swift */,
+				CDC0451524AE4A30007AA41D /* SceneDelegate.swift */,
+				CDC0451F24AE4A34007AA41D /* Assets.xcassets */,
+				CDC0452124AE4A34007AA41D /* LaunchScreen.storyboard */,
+				CDC0452424AE4A34007AA41D /* Info.plist */,
+				CDC0451C24AE4A30007AA41D /* MySchool.xcdatamodeld */,
+				CDC0452A24AE5DDA007AA41D /* CreateAccountViewController.swift */,
+				CDC0454A24AF3E83007AA41D /* HomeViewController.swift */,
+				CDC0454E24AF93DA007AA41D /* MemoTableViewController.swift */,
+				CDC0455224AFA9D1007AA41D /* MemoDetailViewController.swift */,
+				CDC0456A24AFCE1C007AA41D /* ScheduleTableViewController.swift */,
+				CDC0456C24AFCE35007AA41D /* AddSceduleViewController.swift */,
+				CD013BE424B0AAA9004EB3D5 /* ScheduleData.swift */,
+				CD013BE624B0D2CC004EB3D5 /* ScheduleDetailViewController.swift */,
+			);
+			path = MySchool;
+			sourceTree = "<group>";
+		};
+		CDC0453924AF0291007AA41D /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0455B24AFC878007AA41D /* acolor.png */,
+				CDC0455E24AFC878007AA41D /* bcolor.png */,
+				CDC0456024AFC878007AA41D /* ccolor.png */,
+				CDC0455924AFC878007AA41D /* dcolor.png */,
+				CDC0455824AFC878007AA41D /* ecolor.png */,
+				CDC0455F24AFC878007AA41D /* fcolor.png */,
+				CDC0455C24AFC878007AA41D /* gcolor.png */,
+				CDC0455D24AFC878007AA41D /* hcolor.png */,
+				CDC0455A24AFC878007AA41D /* icolor.png */,
+				CDC0453D24AF052D007AA41D /* sample-335-magic-wand.png */,
+				CDC0454424AF06CE007AA41D /* note.png */,
+				CDC0454024AF0676007AA41D /* home.png */,
+				CDC0453024AF0279007AA41D /* calendar.png */,
+				CDC0453124AF0279007AA41D /* color.png */,
+				CDC0452F24AF0279007AA41D /* list.png */,
+				CDC0453224AF0279007AA41D /* logout.png */,
+				CDC0452E24AF0279007AA41D /* memo.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC0450F24AE4A30007AA41D /* MySchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC0452724AE4A34007AA41D /* Build configuration list for PBXNativeTarget "MySchool" */;
+			buildPhases = (
+				CDC0450C24AE4A30007AA41D /* Sources */,
+				CDC0450D24AE4A30007AA41D /* Frameworks */,
+				CDC0450E24AE4A30007AA41D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySchool;
+			productName = MySchool;
+			productReference = CDC0451024AE4A30007AA41D /* MySchool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC0450824AE4A30007AA41D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CDC0450F24AE4A30007AA41D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDC0450B24AE4A30007AA41D /* Build configuration list for PBXProject "MySchool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC0450724AE4A30007AA41D;
+			productRefGroup = CDC0451124AE4A30007AA41D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC0450F24AE4A30007AA41D /* MySchool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC0450E24AE4A30007AA41D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD013C0524B1266E004EB3D5 /* colorPage.png in Resources */,
+				CDC0453724AF0279007AA41D /* color.png in Resources */,
+				CD013BFE24B1266E004EB3D5 /* calendarPage.png in Resources */,
+				CD013BFD24B1266E004EB3D5 /* appiconn.png in Resources */,
+				CD013BFA24B1266E004EB3D5 /* loginPage.png in Resources */,
+				CDC0456324AFC878007AA41D /* icolor.png in Resources */,
+				CD013C0024B1266E004EB3D5 /* memoPage.png in Resources */,
+				CD013C0224B1266E004EB3D5 /* smallButton1.png in Resources */,
+				CDC0452324AE4A34007AA41D /* LaunchScreen.storyboard in Resources */,
+				CD013BFC24B1266E004EB3D5 /* selectSchool 2.png in Resources */,
+				CD013BFF24B1266E004EB3D5 /* scheduleCheck.png in Resources */,
+				CD013C0324B1266E004EB3D5 /* smallButton2.png in Resources */,
+				CDC0456624AFC878007AA41D /* hcolor.png in Resources */,
+				CDC0456724AFC878007AA41D /* bcolor.png in Resources */,
+				CD013BEA24B11CF2004EB3D5 /* buttonYellow-8.png in Resources */,
+				CDC0456524AFC878007AA41D /* gcolor.png in Resources */,
+				CDC0453624AF0279007AA41D /* calendar.png in Resources */,
+				CDC0453524AF0279007AA41D /* list.png in Resources */,
+				CD013BFB24B1266E004EB3D5 /* Calendarbutton-8.png in Resources */,
+				CDC0456824AFC878007AA41D /* fcolor.png in Resources */,
+				CDC0454524AF06CF007AA41D /* note.png in Resources */,
+				CDC0456424AFC878007AA41D /* acolor.png in Resources */,
+				CDC0456924AFC878007AA41D /* ccolor.png in Resources */,
+				CDC0453424AF0279007AA41D /* memo.png in Resources */,
+				CDC0452024AE4A34007AA41D /* Assets.xcassets in Resources */,
+				CDC0454224AF0676007AA41D /* home.png in Resources */,
+				CDC0451B24AE4A30007AA41D /* Main.storyboard in Resources */,
+				CD013BEB24B11CF2004EB3D5 /* selectSchool.png in Resources */,
+				CDC0456124AFC878007AA41D /* ecolor.png in Resources */,
+				CDC0456224AFC878007AA41D /* dcolor.png in Resources */,
+				CD013C0124B1266E004EB3D5 /* homePage.png in Resources */,
+				CDC0453824AF0279007AA41D /* logout.png in Resources */,
+				CDC0453F24AF052E007AA41D /* sample-335-magic-wand.png in Resources */,
+				CD013C0424B1266E004EB3D5 /* accountPage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC0450C24AE4A30007AA41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC0456B24AFCE1C007AA41D /* ScheduleTableViewController.swift in Sources */,
+				CDC0452B24AE5DDA007AA41D /* CreateAccountViewController.swift in Sources */,
+				CDC0451824AE4A30007AA41D /* ViewController.swift in Sources */,
+				CDC0456D24AFCE35007AA41D /* AddSceduleViewController.swift in Sources */,
+				CDC0455324AFA9D1007AA41D /* MemoDetailViewController.swift in Sources */,
+				CDC0454F24AF93DA007AA41D /* MemoTableViewController.swift in Sources */,
+				CDC0451424AE4A30007AA41D /* AppDelegate.swift in Sources */,
+				CDC0451624AE4A30007AA41D /* SceneDelegate.swift in Sources */,
+				CDC0455124AF93F6007AA41D /* AddMemoViewController.swift in Sources */,
+				CD013BE724B0D2CC004EB3D5 /* ScheduleDetailViewController.swift in Sources */,
+				CDC0451E24AE4A30007AA41D /* MySchool.xcdatamodeld in Sources */,
+				CD013C0624B1266E004EB3D5 /* MySchool.xcdatamodeld in Sources */,
+				CD013BE524B0AAA9004EB3D5 /* ScheduleData.swift in Sources */,
+				CDC0454B24AF3E83007AA41D /* HomeViewController.swift in Sources */,
+				CDC0455724AFBD43007AA41D /* ColorViewController.swift in Sources */,
+				CDC0453324AF0279007AA41D /* MySchool.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDC0451924AE4A30007AA41D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC0451A24AE4A30007AA41D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC0452124AE4A34007AA41D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC0452224AE4A34007AA41D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC0452524AE4A34007AA41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC0452624AE4A34007AA41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC0452824AE4A34007AA41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.MySchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC0452924AE4A34007AA41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MySchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.MySchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC0450B24AE4A30007AA41D /* Build configuration list for PBXProject "MySchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC0452524AE4A34007AA41D /* Debug */,
+				CDC0452624AE4A34007AA41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC0452724AE4A34007AA41D /* Build configuration list for PBXNativeTarget "MySchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC0452824AE4A34007AA41D /* Debug */,
+				CDC0452924AE4A34007AA41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD013BF824B1266E004EB3D5 /* MySchool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD013BF924B1266E004EB3D5 /* MySchool.xcdatamodel */,
+			);
+			currentVersion = CD013BF924B1266E004EB3D5 /* MySchool.xcdatamodel */;
+			path = MySchool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CDC0451C24AE4A30007AA41D /* MySchool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDC0451D24AE4A30007AA41D /* MySchool.xcdatamodel */,
+			);
+			currentVersion = CDC0451D24AE4A30007AA41D /* MySchool.xcdatamodel */;
+			path = MySchool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CDC0452C24AF0279007AA41D /* MySchool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDC0452D24AF0279007AA41D /* MySchool.xcdatamodel */,
+			);
+			currentVersion = CDC0452D24AF0279007AA41D /* MySchool.xcdatamodel */;
+			name = MySchool.xcdatamodeld;
+			path = MySchool/MySchool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDC0450824AE4A30007AA41D /* Project object */;
+}

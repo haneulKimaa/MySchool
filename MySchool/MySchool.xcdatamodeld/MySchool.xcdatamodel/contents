@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Color" representedClassName="Color" syncable="YES" codeGenerationType="class">
+        <attribute name="color1" optional="YES" attributeType="String"/>
+        <attribute name="color2" optional="YES" attributeType="String"/>
+        <attribute name="color3" optional="YES" attributeType="String"/>
+        <attribute name="color4" optional="YES" attributeType="String"/>
+        <attribute name="color5" optional="YES" attributeType="String"/>
+        <attribute name="color6" optional="YES" attributeType="String"/>
+        <attribute name="color7" optional="YES" attributeType="String"/>
+        <attribute name="color8" optional="YES" attributeType="String"/>
+        <attribute name="color9" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Memo" representedClassName="Memo" syncable="YES" codeGenerationType="class">
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="saveDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Memo" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Color" positionX="-54" positionY="18" width="128" height="178"/>
+    </elements>
+</model>
