@@ -31,16 +31,19 @@ class AddSceduleViewController: UIViewController, UIPickerViewDelegate, UIPicker
     override func viewDidLoad() {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         self.existColorNum = appDelegate.existColorNumber
+        print("1")
+        print("existColorNum\(existColorNum)")
         let context = self.getContext()
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Color")
         do {
             subjects = try context.fetch(fetchRequest)
-            
+            print("2")
         } catch let error as NSError{
             print("Could not fetch \(error), \(error.userInfo)")
         }
         
             let subject = subjects[0]
+            print("2.5")
             if let textcolor = subject.value(forKey: "color1") as? String{
                 subjectArray.append(textcolor)
             }
@@ -67,13 +70,16 @@ class AddSceduleViewController: UIViewController, UIPickerViewDelegate, UIPicker
             }
             if let textcolor = subject.value(forKey: "color9") as? String{
                 subjectArray.append(textcolor)
+                print("3")
             }
         for i in 0...subjectArray.count-1{
             if let existSubject = subjectArray[i] as? String{
+                print("7")
                 print(existSubject)
                 arrayForPicker.append(existSubject)
             }
         }
+            print("4")
     }
 
     override func viewDidAppear(_ animated: Bool) {
