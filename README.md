@@ -29,7 +29,7 @@
 
 
 ### 6.  스크린샷
-<img src="https://user-images.githubusercontent.com/63438947/129935690-4cf26d02-b20c-418f-a48e-552fb7d0d0ce.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/129935703-61363168-b4de-469c-bf63-9ea362ccba82.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/129935707-c5ab38bc-29d2-4732-9871-f325a69993f5.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/129935710-323990ca-8e23-41ba-ae29-801193230b14.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/129935712-50962ff9-d333-4276-91a1-34bfee57b72a.png" width="30%">  
+<img src="https://user-images.githubusercontent.com/63438947/130254338-92d72650-7699-460d-b35e-509759b3c043.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/130254363-1773f650-d8f4-4a18-a9a5-e3b0b4a041b5.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/130254389-111263dd-266f-4637-a826-0cc3badea143.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/130254834-57aba150-902f-4ee1-8e1f-701f8d49fae5.png" width="30%">   <img src="https://user-images.githubusercontent.com/63438947/130255374-165fd5e1-f279-4ee4-924d-6e47ce9d5f25.png" width="30%">   <img src="https://user-images.githubusercontent.com/63438947/130255445-f6cafd6d-adc0-4e0f-9077-2f8b64890a16.png" width="30%">  <img src="https://user-images.githubusercontent.com/63438947/130255558-d1c03bbd-e67d-478f-b6bd-006377b23f1b.png" width="30%">  
 
 
 
